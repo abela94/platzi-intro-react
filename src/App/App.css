@@ -1,0 +1,14 @@
+.AppContainer {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+  height: fit-content;
+  
+  padding-bottom: 7.5rem;
+  margin: auto auto;
+}

@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+
+  /* Colors */
+  --primary: #54e5da;
+  --secondary: #063aa1;
+  --alternative: #ff6f00;
+  --link-color: #ffb830;
+  --black: #333333;
+  --white: #f3f3f3;
+  --gray: #b2b2b2;
+  --t-black: rgba(51, 51, 51, 0.75);
+
+  /* Fonts */
+  --font-family: 'Inter', sans-serif;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-s-xl: 3.6rem;
+  --font-s-lg: 3rem;
+  --font-s-md: 1.8rem;
+  --font-s-normal: 1.4rem;
+  --font-s-sm: 1.2rem;
+
+  /* Padding */
+  --p: 1.5rem;
+  --px: 1rem;
+  --py: 0.75rem;
+
+  /* Margin */
+  --m: 1rem;
+  --mx: 1.5rem;
+  --my: 1.75rem;
+
+  /* Border */
+  --border: 2px;
+  --border-radius: 25px;
+
+  /* Shadow */
+  
+  --shadow-b-primary: 1px 5px 25px 0px rgba(84,229,218,0.75);
+  --shadow-black: 2.5px 2px 15px 2.5px rgba(51,51,51,0.75);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: var(--font-s-xl);
+  font-weight: var(--font-bold);
+} 
+
+h2 {
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-bold);
+}
+
+h3, h4, h5 {
+  font-size: var(--font-s-md);
+  font-weight: var(--font-medium);
+}
+
+p {
+  font-size: var(--font-s-normal);
+  font-weight: var(--font-regular);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary); 
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }

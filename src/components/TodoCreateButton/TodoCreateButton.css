@@ -1,0 +1,28 @@
+.TodoCreateButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: var(--my);
+    padding: var(--p);
+    
+    background-color: var(--primary);
+    border: none;
+    border-radius: 50%;
+    box-shadow: var(--shadow-black);
+    
+    transform: scale(.75);
+    transition: .3s ease;
+}
+
+.TodoCreateButton:hover {
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.TodoCreateButton-icon {
+    height: var(--font-s-lg);
+    width: var(--font-s-lg);
+    color: var(--white);
+    font-size: var(--font-s-lg);
+}

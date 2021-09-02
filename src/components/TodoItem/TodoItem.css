@@ -1,0 +1,52 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: var(--py) var(--px);
+    margin: var(--my) 0;
+
+    background-color: var(--white);
+    border: var(--border) solid var(--secondary);
+    border-radius: var(--border-radius);
+
+    cursor: pointer;
+
+    opacity: 0.75;
+    transition: 0.3s;
+    
+}
+
+.TodoItem:hover{
+    opacity: 1;
+}
+
+.TodoItem--text {
+    width: 100%;
+    margin: 0 var(--mx);
+
+    font-size: var(--font-s-md);
+    color: var(--black);    
+}
+
+.TodoItem--status, .TodoItem--delete {
+    cursor: pointer;
+
+    transform: scale(0.75);
+    transition: .3s ease;
+}
+
+.TodoItem--status:hover, .TodoItem--delete:hover {
+    transform: scale(1);
+}
+
+.TodoItem--status {
+    font-size: var(--font-s-lg);
+    color: var(--primary);
+}
+
+.TodoItem--delete {
+    color: var(--alternative);
+    font-size: var(--font-s-lg);
+}

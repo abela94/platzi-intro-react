@@ -1,0 +1,13 @@
+.TodoCounter {
+    padding: var(--py) var(--px);
+    margin: var(--my) 0 0 0;
+}
+
+.TodoCounter--text {
+    text-align: center;
+    color: var(--black)
+}
+
+.TodoCounter--highlight {
+    color: var(--primary)
+}
