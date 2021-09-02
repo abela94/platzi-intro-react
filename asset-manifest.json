@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/platzi-intro-react/static/css/main.6d6622b5.chunk.css",
+    "main.js": "/platzi-intro-react/static/js/main.28d4321e.chunk.js",
+    "main.js.map": "/platzi-intro-react/static/js/main.28d4321e.chunk.js.map",
+    "runtime-main.js": "/platzi-intro-react/static/js/runtime-main.2db24fda.js",
+    "runtime-main.js.map": "/platzi-intro-react/static/js/runtime-main.2db24fda.js.map",
+    "static/js/2.753e1c49.chunk.js": "/platzi-intro-react/static/js/2.753e1c49.chunk.js",
+    "static/js/2.753e1c49.chunk.js.map": "/platzi-intro-react/static/js/2.753e1c49.chunk.js.map",
+    "index.html": "/platzi-intro-react/index.html",
+    "static/css/main.6d6622b5.chunk.css.map": "/platzi-intro-react/static/css/main.6d6622b5.chunk.css.map",
+    "static/js/2.753e1c49.chunk.js.LICENSE.txt": "/platzi-intro-react/static/js/2.753e1c49.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2db24fda.js",
+    "static/js/2.753e1c49.chunk.js",
+    "static/css/main.6d6622b5.chunk.css",
+    "static/js/main.28d4321e.chunk.js"
+  ]
+}
