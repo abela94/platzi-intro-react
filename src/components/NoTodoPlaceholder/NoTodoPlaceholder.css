@@ -1,0 +1,15 @@
+.NoTodoPlaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% - 50px);
+    height: 275px;
+}
+
+.NoTodoPlaceholder-text {
+    text-align: center;
+    font-weight: var(--font-bold);
+    font-size: var(--font-s-md);
+    color: var(--primary);
+}
